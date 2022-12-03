@@ -8,6 +8,7 @@ const Vidoe = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         paddingTop: '30px',
+        paddingBottom: '100px',
       }}
     >
       <h1

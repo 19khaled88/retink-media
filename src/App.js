@@ -1,5 +1,8 @@
 import './App.css'
+import Button from './components/Button'
 import Feature from './components/Feature'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
 import Header from './components/Header'
 import Vidoe from './components/Vidoe'
 
@@ -9,6 +12,9 @@ function App() {
       <Header />
       <Vidoe />
       <Feature />
+      <Gallery />
+      <Button />
+      <Footer />
     </div>
   )
 }
