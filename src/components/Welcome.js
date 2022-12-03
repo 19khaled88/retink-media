@@ -18,6 +18,7 @@ const Welcome = () => {
       </div>
       <div style={{display:'flex',flexDirection:'row',width:'90%',margin:'auto',justifyContent:'space-between',alignItems:'center'}}>
         <div >
+            <h1 style={{color:'#D51D46'}}>Welcome you to this world!</h1>
             <div style={{color:'#6717C0',fontSize:'50px',fontWeight:'bold'}}>
                 <p>You are just One</p>
                 <p>Content away!</p>
