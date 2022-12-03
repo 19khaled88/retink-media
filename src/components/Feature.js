@@ -18,6 +18,7 @@ const Feature = () => {
     >
       {feature.map((element, index) => (
         <div
+        key={element.id}
           className=""
           style={{
             padding: '5px',

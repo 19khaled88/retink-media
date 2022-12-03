@@ -50,7 +50,7 @@ const Gallery = () => {
         }}
       >
         {gallery.map((element, index) => (
-          <div style={{ width: '300px', height: '250px' }}>
+          <div key={element.id} style={{ width: '300px', height: '250px' }}>
             <img
               src={element.image}
               alt="No image"
